@@ -1,0 +1,20 @@
+h3{
+    font-size:25px !important;
+}
+.btn-success:hover{
+    background:red;
+}
+canvas{
+    animation-name:example;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px rgb(0, 255, 64);}
+}
+body{
+    background:url("https://bestanimations.com/media/clowns/1221612083clown-animation-6.gif");
+    height:-100px; 
+    width:-100px;
+}
